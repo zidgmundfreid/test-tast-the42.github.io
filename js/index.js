@@ -70,7 +70,6 @@ if (window.innerWidth > 1256) {
 
     let currentMarginTop = currentItem.id * 100;
     let newMarginTop = (currentMarginTop + sign * 100) * -1;
-    console.log(newMarginTop);
     sliderItems.style.marginTop = `${newMarginTop}vh`;
   }
 
